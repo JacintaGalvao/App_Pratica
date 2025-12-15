@@ -25,7 +25,7 @@ with st.sidebert:
       except FilenotFoundError:
         return pd.DataFrame()
     df=carregar_dados(dados)
-    st.TABLE(df)
+    st.table(df)
 
   else:
     st.info("Carregar um ficheiro Excel para começar")
