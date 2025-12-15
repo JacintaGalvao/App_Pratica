@@ -13,3 +13,19 @@ menu=option_menu(menu_title ="Menu",
                      menu_icon="cast",
                      default_index=0,
                      orientation="horizontal") 
+
+with st.sidebert: 
+  st.sucess("**UPLOAD DE DADOS**")
+  dados = st.title_uploader("carregue ..-", type=["xlsx","xls"])
+  if dados: 
+    def carregar_dados(dados):
+      try:
+        df=pd.read_excel(dados)
+        return df
+      except FilenotFoundError:
+        Return pd.DataFrame ()
+    df= = carregar_dados(daDOS)
+    st.TABLE(df)
+
+else:
+    st.info("Carregar um ficheiro Excel para começar")
