@@ -9,7 +9,7 @@ import openpyxl
 #from dateline impot date 
 st.header("Introduzindo os Elementos do Streamlit")
 menu=option_menu(menu_title ="Menu", 
-                     options=["inicio","Gráficos estaticos", "Gráficos denâmicos", "Widgets", "Formulário"],
+                     options=["inicio","Gráficos estaticos", "Gráficos denâmicos", "widgets", "Formulário"],
                      icons=["house", "bar-chart", "bar-chart-line", "toggles", "bar-chart" ],
                      menu_icon="cast",
                      default_index=0,
@@ -29,7 +29,7 @@ with st.sidebar:
     st.table(df)
   else:
     st.info("Carregar um ficheiro Excel para começar")
-if menu == "Inicio":
+if menu == "inicio":
   with st.expander("**Sobre o Instetuto Nacional de Estatística**"):
     st.write("Acesse o site WWW.ine.cv")
     st.image("INE.webp")
