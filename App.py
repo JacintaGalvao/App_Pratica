@@ -23,7 +23,7 @@ with st.sidebert:
         df=pd.read_excel(dados)
         return df
       except FilenotFoundError:
-        Return pd.DataFrame()
+        return pd.DataFrame()
     df= = carregar_dados(daDOS)
     st.TABLE(df)
 
