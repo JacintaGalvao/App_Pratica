@@ -14,7 +14,7 @@ menu=option_menu(menu_title ="Menu",
                      default_index=0,
                      orientation="horizontal") 
 
-with st.sidebert: 
+with st.sidebar: 
   st.sucess("**UPLOAD DE DADOS**")
   dados = st.title_uploader("carregue ..-", type=["xlsx","xls"])
   if dados: 
