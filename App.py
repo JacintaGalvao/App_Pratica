@@ -27,5 +27,5 @@ with st.sidebert:
     df=carregar_dados(dados)
     st.TABLE(df)
 
-else:
+  else:
     st.info("Carregar um ficheiro Excel para começar")
