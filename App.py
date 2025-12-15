@@ -41,4 +41,6 @@ if  menu == "widgets":
 
   sd = st.slider("Mova o ponto do slider!", min_values=25, \
                 max_value=35, value=30, step=1)
+  testo = f"Eu tenho {sd} anos!"
+  st.success(texto)
 
