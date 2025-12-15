@@ -24,7 +24,7 @@ with st.sidebert:
         return df
       except FilenotFoundError:
         return pd.DataFrame()
-    df= = carregar_dados(daDOS)
+    df= = carregar_dados(dados)
     st.TABLE(df)
 
 else:
