@@ -26,6 +26,5 @@ with st.sidebert:
         return pd.DataFrame()
     df=carregar_dados(dados)
     st.table(df)
-
   else:
     st.info("Carregar um ficheiro Excel para começar")
