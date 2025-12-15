@@ -29,7 +29,6 @@ with st.sidebar:
     st.table(df)
   else:
     st.info("Carregar um ficheiro Excel para começar")
-
 if menu == "Inicio":
   with st.expander("**Sobre o Instetuto Nacional de Estatística**"):
     st.write("Acesse o site WWW.ine.cv")
