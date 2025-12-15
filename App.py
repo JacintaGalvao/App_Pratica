@@ -33,7 +33,7 @@ with st.sidebar:
 if menu == "Inicio":
   with st.expander("**Sobre o Instetuto Nacional de Estatística**"):
     st.write("Acesse o site WWW.ine.cv")
-    st.image("images/INE.webp")
+    st.image("INE.webp")
 
 if  menu == "widgets":
   bt = st.button("Dê um clique!")
@@ -42,6 +42,6 @@ if  menu == "widgets":
 
   sd = st.slider("Mova o ponto do slider!", min_values=25, \
                 max_value=35, value=30, step=1)
-  testo = f"Eu tenho {sd} anos!"
+  texto = f"Eu tenho {sd} anos!"
   st.success(texto)
 
