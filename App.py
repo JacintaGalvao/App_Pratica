@@ -22,7 +22,7 @@ with st.sidebar:
       try:
         df=pd.read_excel(dados)
         return df
-      except FilenotFoundError:
+      except FileNotFoundError:
         return pd.DataFrame()
     df=carregar_dados(dados)
     st.table(df)
