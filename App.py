@@ -11,5 +11,5 @@ menu=option_menu(menu_title ="Menu",
                      options=["inicio","Gráficos estaticos", "Gráficos denâmicos", "Widgets", "Formulário"],
                      icons=["house", "bar-chart", "bar-chart-line", "toggles", "bar-chart" ],
                      menu_icon="cast",
-                     defaukt_ibdex=0,
+                     default_index=0,
                      orientation="horizontal") 
